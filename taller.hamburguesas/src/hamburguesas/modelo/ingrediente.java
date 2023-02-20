@@ -1,6 +1,7 @@
 package hamburguesas.modelo;
+import java.io.Serializable;
 
-public class ingrediente {
+public class ingrediente implements Serializable{
 
 	
 	private String nombre;
